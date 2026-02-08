@@ -1,0 +1,23 @@
+build/
+out/
+**/build/
+**/out/
+**/classes/
+**/generated/
+
+# Fabric/Loomrun/
+loom-cache/
+remapped-classes/
+*.log# IntelliJ IDEA.idea/
+*.iml*.ipr*.iws*.class*.jar*.war*.ear# Python__pycache__/
+*.py[cod]
+*.pyo.venv/
+venv/
+ENV/
+env/
+pip-wheel-metadata/
+*.egg-info/
+.eggs/
+dist/
+# OS.DS_StoreThumbs.dbehthumbs.dbDesktop.ini# Misc*.swp*.swo*~
+*.tmp*.bak```

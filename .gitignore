@@ -5,6 +5,15 @@ out/
 **/classes/
 **/generated/
 
+run/logs/
+run/crash-reports/
+run/config/
+run/saves/
+run/resourcepacks/
+run/mods/
+run/downloads/
+run/usercache.jsonrun/options.txt
+
 # Fabric/Loomrun/
 loom-cache/
 remapped-classes/

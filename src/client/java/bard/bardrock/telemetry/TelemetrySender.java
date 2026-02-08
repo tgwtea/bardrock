@@ -11,7 +11,7 @@ import java.util.concurrent.Executors;
 
 public class TelemetrySender {
     private static final Gson GSON = new GsonBuilder().create();
-    private static final String ENDPOINT = "https://localhost:8080/telemetry";
+    private static final String ENDPOINT = "http://localhost:8000/telemetry";
 
     private final HttpClient httpClient;
     private final ExecutorService executor = Executors.newSingleThreadExecutor();

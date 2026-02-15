@@ -1,32 +1,102 @@
+
+# =========================
+# Core Java / Gradle stuff
+# =========================
+
+# Gradle
+.gradle/
 build/
 out/
-**/build/
-**/out/
-**/classes/
-**/generated/
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
 
-run/logs/
-run/crash-reports/
-run/config/
-run/saves/
-run/resourcepacks/
-run/mods/
-run/downloads/
-run/usercache.jsonrun/options.txt
+# Local environment settings
+**/.classpath
+**/.project
+**/.settings/
+**/.factorypath
 
-# Fabric/Loomrun/
+# =========================
+# Minecraft / Fabric dev
+# =========================
+
+# Run directory from dev environment
+run/
+
+# Client/server crash reports and logs
+crash-reports/
+logs/
+*.log
+*.log.gz
+*.lck
+
+# Fabric Loom cache (if applicable)
+.remappedJars/
 loom-cache/
-remapped-classes/
-*.log# IntelliJ IDEA.idea/
-*.iml*.ipr*.iws*.class*.jar*.war*.ear# Python__pycache__/
-*.py[cod]
-*.pyo.venv/
+
+# =========================
+# IDE junk
+# =========================
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Eclipse
+.metadata/
+bin/
+tmp/
+
+# =========================
+# OS-specific junk
+# =========================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.nfs*
+
+# =========================
+# Tooling / Misc
+# =========================
+
+# Logs (general)
+*.log.*
+
+# Coverage / reports
+coverage/
+jacoco.exec
+
+# Python / backend (if in same repo)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
 venv/
-ENV/
-env/
-pip-wheel-metadata/
-*.egg-info/
-.eggs/
+.env.*
+.envrc
+
+# Node / frontend (if any dashboard UI)
+node_modules/
+npm-debug.log*
+yarn-error.log*
 dist/
-# OS.DS_StoreThumbs.dbehthumbs.dbDesktop.ini# Misc*.swp*.swo*~
-*.tmp*.bak```
+``

@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  bardrock-backend:
+    build: .
+    container_name: bardrock_backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app   # optional: live code reload
+    restart: unless-stopped

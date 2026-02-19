@@ -1,0 +1,102 @@
+
+# =========================
+# Core Java / Gradle stuff
+# =========================
+
+# Gradle
+.gradle/
+build/
+out/
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+# Local environment settings
+**/.classpath
+**/.project
+**/.settings/
+**/.factorypath
+
+# =========================
+# Minecraft / Fabric dev
+# =========================
+
+# Run directory from dev environment
+run/
+
+# Client/server crash reports and logs
+crash-reports/
+logs/
+*.log
+*.log.gz
+*.lck
+
+# Fabric Loom cache (if applicable)
+.remappedJars/
+loom-cache/
+
+# =========================
+# IDE junk
+# =========================
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Eclipse
+.metadata/
+bin/
+tmp/
+
+# =========================
+# OS-specific junk
+# =========================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.nfs*
+
+# =========================
+# Tooling / Misc
+# =========================
+
+# Logs (general)
+*.log.*
+
+# Coverage / reports
+coverage/
+jacoco.exec
+
+# Python / backend (if in same repo)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
+venv/
+.env.*
+.envrc
+
+# Node / frontend (if any dashboard UI)
+node_modules/
+npm-debug.log*
+yarn-error.log*
+dist/
+``
